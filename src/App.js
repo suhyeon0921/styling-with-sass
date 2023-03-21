@@ -41,6 +41,18 @@ function App() {
           BUTTON
         </Button>
       </div>
+      {/* fullwidth */}
+      <div className='buttons'>
+        <Button size='large' fullwidth>
+          BUTTON
+        </Button>
+        <Button size='large' color='gray' fullwidth>
+          BUTTON
+        </Button>
+        <Button size='large' color='pink' fullwidth>
+          BUTTON
+        </Button>
+      </div>
     </div>
   );
 }

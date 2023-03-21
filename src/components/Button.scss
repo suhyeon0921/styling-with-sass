@@ -79,4 +79,13 @@ $pink: #f06595;
     // .Button + .Button 의미
     margin-left: 1rem;
   }
+
+  &.fullwidth {
+    width: 100%;
+    justify-content: center;
+    & + & {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
 }
