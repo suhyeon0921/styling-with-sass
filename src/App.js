@@ -6,7 +6,9 @@ function App() {
     <div className='App'>
       {/* 버튼 사이즈 */}
       <div className='buttons'>
-        <Button size='large'>BUTTON</Button>
+        <Button size='large' onClick={() => console.log('클릭되었습니다.')}>
+          BUTTON
+        </Button>
         <Button>BUTTON</Button>
         <Button size='small'>BUTTON</Button>
       </div>
