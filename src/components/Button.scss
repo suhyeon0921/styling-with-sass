@@ -10,6 +10,15 @@ $pink: #f06595;
   &:active {
     background: darken($color, 10%);
   }
+  &.outline {
+    color: $color;
+    background: none;
+    border: 1px solid $color;
+    &:hover {
+      background: $color;
+      color: white;
+    }
+  }
 }
 
 .Button {
@@ -45,7 +54,7 @@ $pink: #f06595;
   }
 
   // 색상 관리
-  &blue {
+  &.blue {
     @include button-color($blue);
   }
 

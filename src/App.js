@@ -8,7 +8,7 @@ function App() {
       <div className='buttons'>
         <Button size='large'>BUTTON</Button>
         <Button>BUTTON</Button>
-        <Button className='small'>BUTTON</Button>
+        <Button size='small'>BUTTON</Button>
       </div>
       {/* 버튼 색상 */}
       <div className='buttons'>
@@ -16,7 +16,7 @@ function App() {
           BUTTON
         </Button>
         <Button color='gray'>BUTTON</Button>
-        <Button className='small' color='gray'>
+        <Button size='small' color='gray'>
           BUTTON
         </Button>
       </div>
@@ -25,7 +25,19 @@ function App() {
           BUTTON
         </Button>
         <Button color='pink'>BUTTON</Button>
-        <Button className='small' color='pink'>
+        <Button size='small' color='pink'>
+          BUTTON
+        </Button>
+      </div>
+      {/* outline */}
+      <div className='buttons'>
+        <Button size='large' color='blue' outline>
+          BUTTON
+        </Button>
+        <Button color='gray' outline>
+          BUTTON
+        </Button>
+        <Button size='small' color='pink' outline>
           BUTTON
         </Button>
       </div>
